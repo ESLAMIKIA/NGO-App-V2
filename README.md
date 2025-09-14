@@ -18,9 +18,12 @@ An educational Android application built using Kotlin and Android Studio. This a
 |  <img width="1080" height="2400" alt="home" src="https://github.com/user-attachments/assets/b0d0d26c-3fa2-4041-aa87-4500c60b138b" />  |<img width="1080" height="2400" alt="course" src="https://github.com/user-attachments/assets/7aff867f-ad25-4685-adaf-e6b0d1408306" /> |<img width="1080" height="2400" alt="profile" src="https://github.com/user-attachments/assets/1e9c9f12-e14a-47a2-aa54-b2fb1f3dca63" /> |
  
 
-| Login Screen | About us | join us |
+| News | About us | join us |
 |-------------|---------|-----------|
-| <img width="1080" height="2400" alt="Screenshot_20250722_010856" src="https://github.com/user-attachments/assets/951e1564-9110-4332-ab7a-1a6727c9118a" /> | <img width="1080" height="2400" alt="Screenshot_20250722_010836" src="https://github.com/user-attachments/assets/6bfa70b8-7265-4048-9085-be1fab419d83" /> | <img width="1080" height="2400" alt="Screenshot_20250722_010834" src="https://github.com/user-attachments/assets/0fab15ff-c84e-45bf-9630-f7fa37024843" /> |
+| <img width="1080" height="2400" alt="news" src="https://github.com/user-attachments/assets/ab55141c-e351-4f89-a70e-241c3fcf3f02" /> |
+<img width="1080" height="2400" alt="join" src="https://github.com/user-attachments/assets/9c1dfa80-3993-4109-9c25-7c0173bc392b" />
+| <img width="1080" height="2400" alt="about" src="https://github.com/user-attachments/assets/7c2744a2-ad1d-4f32-a95b-7212cb4cbdb9" />
+ |
 
 
 
