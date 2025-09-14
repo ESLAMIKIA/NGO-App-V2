@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NGO</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add">Add</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_news_available" />
+    <string name="about_us_title">About Our Organization</string>
+    <string name="app_logo">App Logo</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us_description">This app was developed as a university project by <b> Amir Erfan Eslamikia.</b>
+It helps users explore and register for various educational courses in a simple and organized way.
+The goal is to make learning more accessible and enjoyable for everyone. </string>
+</resources>

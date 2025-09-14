@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.ngo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="WebFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_web"/>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.ngo.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_resumeFormFragment"
+            app:destination="@id/resumeFormFragment" />
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_aboutUs"
+            app:destination="@id/aboutUs" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.example.ngo.ui.aboutus.AboutUs"
+        android:label="AboutFragment"
+        tools:layout="@layout/aboutus"/>
+
+
+
+
+    <fragment
+        android:id="@+id/resumeFormFragment"
+        android:name="com.example.ngo.ResumeFormFragment"
+        android:label="Information Form"
+        tools:layout="@layout/fragment_resume_form" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.ngo.ui.Add.AddCourseFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add_course" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.ngo.ui.Login.LoginActivity"
+        android:label="LoginActivity"
+        tools:layout="@layout/activity_login"/>
+
+    <fragment
+        android:id="@+id/myCoursesFragment"
+        android:name="com.example.ngo.ui.MyCourses.MyCoursesFragment"
+        android:label="My Courses"
+        tools:layout="@layout/fragment_my_courses"/>
+
+</navigation>

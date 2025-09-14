@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dashboardFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EDE3"
+    android:fitsSystemWindows="true"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- کارت پروفایل -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_user"
+                    android:background="@drawable/circle_bg"
+                     />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="12dp">
+
+                    <TextView
+                        android:id="@+id/tvSavedName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amir Erfan Eslamikia"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#333"/>
+
+                    <TextView
+                        android:id="@+id/tvSavedEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="erfan@example.com"
+                        android:textSize="14sp"
+                        android:textColor="#777" />
+                    <TextView
+                        android:id="@+id/tvSavedPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- کارت وضعیت کاربر -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:elevation="8dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvjob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Job:"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#444"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Membership"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#444"/>
+
+                <TextView
+                    android:id="@+id/txtMembership"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium Member"
+                    android:textSize="14sp"
+                    android:textColor="#4F86EC"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--Jioin us-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:elevation="8dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                >
+
+
+                <Button
+                    android:id="@+id/btnOpenForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="#F95C0D"
+                    android:text="JOIN US"
+                    android:textColor="#FCFFFF"
+                    app:cardCornerRadius="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tell us about your self and become one of us"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:textSize="16dp"
+            android:id="@+id/btnAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="About Us"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn more about our mission and team."
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:textColor="#666666"/>
+
+
+
+
+            </LinearLayout>
+
+
+</ScrollView>

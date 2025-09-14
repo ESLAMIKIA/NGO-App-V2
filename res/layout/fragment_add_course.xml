@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true"
+    android:layout_marginTop="20dp"
+    android:background="#F6EDE3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:background="@drawable/bg_edittext"
+        android:contextClickable="true"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="70sp" />
+
+    <EditText
+        android:id="@+id/edtCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Title"
+        android:inputType="textPersonName"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_edittext" />
+
+    <EditText
+        android:id="@+id/edtCourseDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_edittext" />
+
+    <Button
+        android:id="@+id/btnAddCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#f15f19"
+        android:textColor="@android:color/white" />
+</LinearLayout>

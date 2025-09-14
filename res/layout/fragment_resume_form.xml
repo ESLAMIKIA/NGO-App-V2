@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_user"
+                android:contentDescription="Profile Icon"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professional Resume"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete your profile information"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- Personal Information Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Information"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Name Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etFullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Email Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="textEmailAddress"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Phone Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="phone"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Date of Birth Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date of Birth"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etBirthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Professional Information Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Professional Information"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Job Title Dropdown -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Job Title"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/jobSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Experience Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Years of Experience"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etExperience"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="number"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Skills Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Skills (comma separated)"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etSkills"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="textCapWords"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Education Information Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Education"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Degree Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Degree"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etDegree"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="textCapWords"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- University Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="University"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+                    <EditText
+                        android:id="@+id/etUniversity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="textCapWords"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <!-- Graduation Year Field -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Graduation Year"
+                        android:textSize="14sp"
+                        android:textColor="#616161"/>
+
+
+                    <EditText
+                        android:id="@+id/etGraduationYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="number"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp"
+                        android:textSize="14sp"/>
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="SAVE RESUME"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#3F51B5"
+                        android:stateListAnimator="@null"
+                        android:elevation="0dp"
+                        android:letterSpacing="0.05"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Submit Button -->
+
+    </LinearLayout>
+</ScrollView>

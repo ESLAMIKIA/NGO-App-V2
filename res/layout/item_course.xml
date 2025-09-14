@@ -1,0 +1,129 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="20dp"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- تصویر بالای کارت -->
+        <ImageView
+            android:id="@+id/courseImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_login"
+            android:contentDescription="تصویر دوره"
+            android:background="#FFCDD2" />
+
+        <!-- محتوای متنی و دکمه -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/courseTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="عنوان دوره"
+                android:textColor="#334369"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/courseDesc"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="توضیحات کوتاه درباره دوره"-->
+            <!--                android:textSize="14sp"-->
+            <!--                android:textColor="#616161"-->
+            <!--                android:layout_marginTop="6dp"-->
+            <!--                android:maxLines="2"-->
+            <!--                android:ellipsize="end" />-->
+
+            <!-- پایین کارت: قیمت و دکمه -->
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="149dp"-->
+            <!--                android:layout_height="64dp"-->
+            <!--                android:layout_marginTop="12dp"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:orientation="vertical">-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="20dp"-->
+            <!--                    android:layout_height="20dp"-->
+            <!--                    android:src="@drawable/clock"-->
+            <!--                    />-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="8dp"-->
+            <!--                    android:text="20 Hour"-->
+            <!--                    android:textColor="#757575"-->
+            <!--                    android:textSize="12sp" />-->
+
+            <!--                <View-->
+            <!--                    android:layout_width="1dp"-->
+            <!--                    android:layout_height="16dp"-->
+            <!--                    android:layout_marginHorizontal="12dp"-->
+            <!--                    android:background="#BDBDBD" />-->
+            <!-- آیکون تقویم -->
+            <!--                <ImageView-->
+            <!--                    android:layout_width="20dp"-->
+            <!--                    android:layout_height="20dp"-->
+            <!--                    android:src="@drawable/dollar"-->
+            <!--                    />-->
+
+            <!-- متن قیمت -->
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="8dp"-->
+            <!--                    android:text="Free"-->
+            <!--                    android:textColor="#00AB3D"-->
+            <!--                    android:textSize="15sp" />-->
+
+
+            <!-- فاصله‌ساز -->
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <!-- دکمه رزرو -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddToDashboard"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:paddingHorizontal="16dp"
+                android:text="اطلاعات بیشتر"
+                android:textColor="#F95C0D"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/white"
+                app:cornerRadius="8dp"
+                app:strokeColor="#F95C0D"
+                app:strokeWidth="2dp"
+/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+<!--    </LinearLayout>-->
+</androidx.cardview.widget.CardView>

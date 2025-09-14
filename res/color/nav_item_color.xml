@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- وقتی انتخاب شده -->
+    <item android:color="@color/black" android:state_checked="true"/>
+    <!-- وقتی انتخاب نشده -->
+    <item android:color="#3C3C65"/>
+</selector>
