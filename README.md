@@ -20,10 +20,7 @@ An educational Android application built using Kotlin and Android Studio. This a
 
 | News | About us | join us |
 |-------------|---------|-----------|
-| <img width="1080" height="2400" alt="news" src="https://github.com/user-attachments/assets/ab55141c-e351-4f89-a70e-241c3fcf3f02" /> |
-<img width="1080" height="2400" alt="join" src="https://github.com/user-attachments/assets/9c1dfa80-3993-4109-9c25-7c0173bc392b" />
-| <img width="1080" height="2400" alt="about" src="https://github.com/user-attachments/assets/7c2744a2-ad1d-4f32-a95b-7212cb4cbdb9" />
- |
+| <img width="1080" height="2400" alt="news" src="https://github.com/user-attachments/assets/ab55141c-e351-4f89-a70e-241c3fcf3f02" /> |<img width="1080" height="2400" alt="join" src="https://github.com/user-attachments/assets/9c1dfa80-3993-4109-9c25-7c0173bc392b" />| <img width="1080" height="2400" alt="about" src="https://github.com/user-attachments/assets/7c2744a2-ad1d-4f32-a95b-7212cb4cbdb9" /> |
 
 
 
