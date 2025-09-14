@@ -15,9 +15,7 @@ An educational Android application built using Kotlin and Android Studio. This a
 
 | Home Screen | Courses | Dashboard |
 |-------------|---------|-----------|
-|  <img width="1080" height="2400" alt="home" src="https://github.com/user-attachments/assets/b0d0d26c-3fa2-4041-aa87-4500c60b138b" />  |
-|<img width="1080" height="2400" alt="course" src="https://github.com/user-attachments/assets/7aff867f-ad25-4685-adaf-e6b0d1408306" /> |
- |<img width="1080" height="2400" alt="profile" src="https://github.com/user-attachments/assets/1e9c9f12-e14a-47a2-aa54-b2fb1f3dca63" /> |
+|  <img width="1080" height="2400" alt="home" src="https://github.com/user-attachments/assets/b0d0d26c-3fa2-4041-aa87-4500c60b138b" />  ||<img width="1080" height="2400" alt="course" src="https://github.com/user-attachments/assets/7aff867f-ad25-4685-adaf-e6b0d1408306" /> ||<img width="1080" height="2400" alt="profile" src="https://github.com/user-attachments/assets/1e9c9f12-e14a-47a2-aa54-b2fb1f3dca63" /> |
  
 
 | Login Screen | About us | join us |
